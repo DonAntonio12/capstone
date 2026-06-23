@@ -73,3 +73,7 @@ Thumbs.db
 *.csv
 *.jpg
 /storage/logs/*.log
+
+# Allow tracking specific ANN model files (we'll store them with Git LFS)
+!resources/
+!resources/*.h5
